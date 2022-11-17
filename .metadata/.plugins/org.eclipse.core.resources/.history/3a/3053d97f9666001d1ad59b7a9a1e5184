@@ -1,0 +1,5 @@
+package edu.uco.monitoria.service.command.implementation;
+
+public class CreateStudentCommandImpl {
+
+}

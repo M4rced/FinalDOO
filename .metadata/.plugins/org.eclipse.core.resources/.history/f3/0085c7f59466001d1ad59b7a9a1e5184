@@ -1,0 +1,84 @@
+package edu.uco.monitoria.domain.builder;
+
+import edu.uco.monitoria.domain.PlaceDTO;
+
+import java.util.UUID;
+
+public class PlaceDTOBuilder {
+	private UUID id;
+    private String block;
+    private String classRoom;
+
+    private PlaceDTOBuilder(){
+        super();
+    }
+
+    public static final PlaceDTOBuilder getPlaceDTOBuilder(){
+        return new PlaceDTOBuilder();
+    }
+
+    public final PlaceDTOBuilder setId(final UUID id) {
+        this.id = id;
+        return this;
+    }
+
+    public final PlaceDTOBuilder setBlock(final String block) {
+        this.block = block;
+        return this;
+    }
+
+    public final PlaceDTOBuilder setClassRoom(final String classRoom) {
+        this.classRoom = classRoom;
+        return this;
+    }
+
+    public final PlaceDTO build(){
+        return PlaceDTO.create(id,block,classRoom);
+    }
+}
+\
+\
+import edu.uco.monitoria.domain.StudentDTO;
+
+import java.util.UUID;
+private StudentDTOBuilder(){
+        super();
+    }
+
+    public static final StudentDTOBuilder getStudentDTOBuilder(){
+        return new StudentDTOBuilder();
+    }
+
+    public final StudentDTOBuilder setId(final UUID id) {
+        this.id = id;
+        return this;
+    }
+
+    public final StudentDTOBuilder setName(final String name) {
+        this.name = name;
+        return this;
+    }
+
+    public final StudentDTOBuilder setSurname(final String surname) {
+        this.surname = surname;
+        return this;
+    }
+
+    public final StudentDTOBuilder setEmail(final String email) {
+        this.email = email;
+        return this;
+    }
+public final StudentDTOBuilder setPhoneNumber(final int phoneNumber) {
+        this.phoneNumber = phoneNumber;
+        return this;
+    }
+
+    public final StudentDTOBuilder setDegree(final String degree) {
+        this.degree = degree;
+        return this;
+    }
+
+    public final StudentDTO build(){
+        return StudentDTO.create(id,name,surname,email,phoneNumber,degree);
+    }
+}

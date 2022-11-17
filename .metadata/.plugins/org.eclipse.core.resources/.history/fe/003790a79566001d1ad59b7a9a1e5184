@@ -1,0 +1,8 @@
+package edu.uco.monitoria.service.command.implementation;
+
+import edu.uco.monitoria.domain.MonitorDT;
+
+public interface CreateMonitorCommand {
+	void execute (MonitorDTO monitor);
+
+}

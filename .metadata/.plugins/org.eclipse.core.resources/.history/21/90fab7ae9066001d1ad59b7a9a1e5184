@@ -1,0 +1,10 @@
+package edu.uco.monitoria.data.dao;
+
+public class Snippet {
+	public static void main(String[] args) {
+		import edu.uco.monitoria.domain.StudentDTO;
+		
+		import java.util.List;
+	}
+}
+

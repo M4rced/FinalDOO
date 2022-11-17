@@ -1,0 +1,56 @@
+1668697867671	Copy package
+1668697877007	Delete element
+1668697910739	Delete element
+1668698441448	Rename package 'uco.edu.monitorias'
+1668698502066	Rename package 'uco.edu.monitorias.crosscutting'
+1668698514244	Rename package 'uco.edu.monitorias.crosscutting.exception'
+1668698528263	Rename package 'uco.edu.monitorias.crosscutting.helper'
+1668698549875	Rename package 'uco.edu.monitorias.crosscutting.messages'
+1668698593039	Rename package 'uco.edu.monitorias.data'
+1668698613317	Rename package 'uco.edu.monitorias.domain'
+1668698625024	Rename package 'uco.edu.monitorias.service'
+1668698643272	Rename package 'edu.uco.monitorias'
+1668698705792	Rename package 'edu.uco.monitoria.crosscutting'
+1668698924402	Delete element
+1668699100174	Delete element
+1668699529403	Delete element
+1668700029819	Delete element
+1668700052788	Delete element
+1668700122464	Delete element
+1668700379748	Delete element
+1668700462142	Rename package 'edu.uco.monitoria.data.dao.relationl'
+1668700490618	Delete element
+1668700691451	Move compilation unit
+1668700695841	Move compilation unit
+1668700700029	Move compilation unit
+1668700704992	Delete element
+1668700711112	Delete element
+1668700748626	Delete element
+1668700829759	Move compilation unit
+1668701383239	Delete element
+1668701813696	Delete element
+1668702369986	Delete element
+1668702739275	Delete element
+1668702943699	Move compilation unit
+1668702947341	Move compilation unit
+1668702950745	Move compilation unit
+1668702954564	Move compilation unit
+1668702958490	Delete element
+1668702987905	Rename type 'CreateMonitorCommand'
+1668703272717	Rename type 'DeletePlaceCommand'
+1668703411302	Rename type 'CreateMonitorUsecase'
+1668703498787	Delete element
+1668703650154	Move compilation unit
+1668703654635	Move compilation unit
+1668703670037	Move compilation unit
+1668703674577	Move compilation unit
+1668703679419	Delete element
+1668703738290	Delete element
+1668703848348	Delete element
+1668704017438	Rename compilation unit 'package-info.java'
+1668704028594	Rename compilation unit 'CreatePlaceUseCaseImlp.java'
+1668704291911	Rename type 'FindStudentUseCase'
+1668704295852	Delete element
+1668704451144	Rename compilation unit 'FindStudentUseCaseImpl.java'
+1668704482699	Delete element
+1668704768034	Delete element

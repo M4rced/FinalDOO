@@ -1,0 +1,5 @@
+package uco.edu.monitorias.crosscutting.helper;
+
+public class SqlConnectionHelper {
+
+}

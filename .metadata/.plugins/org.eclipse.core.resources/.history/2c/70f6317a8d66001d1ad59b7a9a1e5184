@@ -1,0 +1,5 @@
+package edu.uco.monitoria.crosscuting.messages;
+
+public class Messages {
+
+}

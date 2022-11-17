@@ -1,0 +1,5 @@
+package edu.uco.monitoria.data.dao.relational;
+
+public interface PlaceDAO {
+
+}
